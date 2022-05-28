@@ -21,3 +21,6 @@ function nbPetals(n) {
 }
 
 const howMuchIloveYou = n => words[(n - 1) % words.length]
+
+
+//.........
