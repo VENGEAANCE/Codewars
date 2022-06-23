@@ -5,7 +5,7 @@
 // Note: arr1 and arr2 may be sorted in different orders. Also arr1 and arr2 may have same integers. Remove duplicated in the returned result.
 
 function mergeArrays(arr1, arr2) {
-    // merge arrays 
+    // merge arrays ~
     let mergedArray = arr1.concat(arr2)
         //sort in asc order
         .sort((a, b) => a - b)
