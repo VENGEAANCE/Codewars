@@ -19,3 +19,12 @@ function warnTheSheep(queue) {
     const position = queue.reverse().indexOf('wolf');
     return position === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${position}! You are about to be eaten by a wolf!`;
 }
+
+function warnTheSheep(queue) {
+    //reverses the queue
+    const position = queue.reverse()
+        //finds the index if 'wolf'. First test case wolf is in index 0
+        .indexOf('wolf');
+    //if wolf not in index 0, return oi sheep in ${position} you're bout to be eaten 
+    return position === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${position}! You are about to be eaten by a wolf!`;
+}
