@@ -16,6 +16,6 @@ function index(array, n) {
 //if the length of the array is greater than the number parameter
 //find the array on index [n] and and power it to the nth power
 
-//if n is grater than the length, there is nothin located in in nth index.
+//if n is grater than the length, there is nothin located in nth index.
 //return -1
 
