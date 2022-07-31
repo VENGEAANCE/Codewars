@@ -10,6 +10,7 @@ countBy(2,5) === [2,4,6,8,10]
 
 # Solution
 
+```ruby
 function countBy(x, n) {
     var z = [];
     for (i = 1; i <= n; i++) {
@@ -17,3 +18,6 @@ function countBy(x, n) {
     }
     return z;
 }
+```
+
+
