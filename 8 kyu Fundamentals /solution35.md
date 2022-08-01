@@ -13,3 +13,8 @@ function cockroachSpeed(s) {
   return Math.floor(s/0.036)
 }
 ```
+
+# Explanation 
+
+There are 3600 seconds in a hour
+There are 100,000 cm in a kilometer
