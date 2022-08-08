@@ -38,4 +38,4 @@ function fizzbuzz(n) {
 
 # Explanation
 
-// if m3 for expl. is truthy it will push i and since it is true it will push "Fizz" and for example if m5 is false it will return empty string. if none of those conditions are met just return i
+// if m3 for expl. is truthy it will push i and since it is true it will push "Fizz" and for example if m5 is false it will return empty string. if none of those conditions are met just return i.
