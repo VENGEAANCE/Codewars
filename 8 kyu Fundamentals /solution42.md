@@ -17,4 +17,4 @@ function removeChar(str){
 
 # Explanation
 
-Slice takes in 2 parameters, slice(start,end). str.slice(1 will delete elements in the 0 index and -1 will delete elements from last index).
+Slice takes in 2 parameters, slice(start,end). str.slice(1 will delete elements in the 0 index and -1 will delete elements from last index)
