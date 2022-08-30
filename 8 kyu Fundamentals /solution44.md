@@ -20,4 +20,4 @@ function stringToArray(string){
   // P always a string 
   // R  return an array of words
   // E 'I love amazon --> [i, love, amazon]
-  // P use split to separate string by space. Split will return array
+  // P use split to separate string by space. Split will return array.
