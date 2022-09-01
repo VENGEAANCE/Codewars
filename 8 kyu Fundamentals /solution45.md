@@ -35,4 +35,4 @@ The function inside map turns every index zero elemnt to uppercase. element take
   //P - string of two words with one space in between
   //R - two capitl letters wirh a dot separating them
   //E - 'Jared Machado' --> 'J.M'
-  //P - split the name with space inbetween, then iterate the array and turn every 0 index of very word to uppercase then join with . inbetween with no space
+  //P - split the name with space inbetween, then iterate the array and turn every 0 index of very word to uppercase then join with . inbetween with no space.
