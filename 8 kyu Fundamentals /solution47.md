@@ -20,4 +20,4 @@ function reverseWords(str){
 
 # Explanation
 
-//P - string //R - return a reverse string, words not letter //E - 'Amazon is awesome' --> 'awesome is Amazon' //P - reverse all the words if the string passed in.
+//P - string //R - return a reverse string, words not letter //E - 'Amazon is awesome' --> 'awesome is Amazon' //P - reverse all the words if the string passed in
