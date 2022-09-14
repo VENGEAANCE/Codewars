@@ -17,4 +17,4 @@ function capitalizeWord(word) {
 
 # Explanation
 
-I used the split method to turn the word to an array so i could use the array method map to iterate the string array and used a conditional to check if the element was in the 0 index to capitalize the first letter of the word, then used the array method of join to concatenate the string array with an empty string separator as the argument.
+I used the split method to turn the word to an array so I could use the array method map to iterate the string array and used a conditional to check if the element was in the 0 index to capitalize the first letter of the word, then used the array method of join to concatenate the string array with an empty string separator as the argument.
