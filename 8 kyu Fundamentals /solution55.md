@@ -37,5 +37,5 @@ function firstNonConsecutive (arr) {
   
   //need a for loop
   //need an if statement: if i doesn't equal + or - 1 return [i]
-  //return null if nothing catches in the if statement
+  //return null if nothing catches in the if statement.
   
