@@ -33,7 +33,7 @@ function firstNonConsecutive (arr) {
 # Explanation
 
 //determine what the difference between numbers that are next to each other equals
-  //for numbers to be consecutive, they should be 1 apart from each other
+  //for numbers to be consecutive, they should be 1 apart from each other.
   
   //need a for loop
   //need an if statement: if i doesn't equal + or - 1 return [i]
