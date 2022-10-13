@@ -11,4 +11,4 @@ function multipleOfIndex(arr){
 
 # Explanation
 
-Filter method returns the elements that meet the conditions
+Filter method returns the elements that meet the conditions.
