@@ -23,4 +23,4 @@ sum starts at 0
 sum(0) = 0 + 1 -> 1
 sum(1) = 1 + 2 -> 3
 sum equals 3 and is returned
-O(n) complexity
+O(n) complexity.
