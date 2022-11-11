@@ -23,5 +23,5 @@ function missingNumber(arr, mixArr){
 
 # Explanation
 
-
+If there arent missing numbers the length will be the same so we will check that first, becuase its constant time. Next we will subtract the total of each array which will give us the missing numbers. 
 
