@@ -27,5 +27,11 @@ function findDeletedNumber(arr, mixArr) {
 
 # Explanation
 
-If there arent missing numbers the length will be the same so we will check that first, becuase its constant time. Next we will subtract the total of each array which will give us the missing numbers. 
+If there arent missing numbers the length will be the same so we will check that first, becuase its constant time. Next we will subtract the total of each array which will give us the missing numbers.
+
+Example -> The sum of [1,2,3] = 6  + [2,3] = 5 
+
+6 - 5 = 1
+
+Missing number is 1
 
