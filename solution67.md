@@ -13,10 +13,14 @@ Note: N may be 1 or less (in the latter case, the first array will be []).
 
 ```ruby
 
-function missingNumber(arr, mixArr){
-    let arrSum = arr.reduce( (a,c) => a + c, 0 )
-    let mixSum = mixArr.reduce( (a,c) => a + c, 0 )
+function findDeletedNumber(arr, mixArr) {
+   if(arr.length === mixArr.length){
+    return 0
+  }else{
+    let arrSum = arr.reduce((a,c)=>a+c,0)
+    let mixSum = mixArr.reduce((a,c)=>a+c,0)
     return arrSum - mixSum
+  }
 }
 
 ```
