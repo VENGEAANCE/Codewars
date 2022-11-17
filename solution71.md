@@ -30,7 +30,8 @@ function averageLength(arr) {
 
 # Explanation
 
-avgLengthRepeat(['aa', 'bbb', 'cccc']) will return  ['aaa', 'bbb', 'ccc']
+- avgLengthRepeat(['aa', 'bbb', 'cccc']) will return  ['aaa', 'bbb', 'ccc']
+
 First we create a variable that will hold the average length of the array. let go through it from the inside out.
 - arr.join('') will join individual elements without space inbetween -> aabbbcccc
 - add .length it willl return -> 9
