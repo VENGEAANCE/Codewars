@@ -6,11 +6,11 @@ Given an array of strings of the same letter type. Return a new array, which wil
 
 A few examples:
 
-['u', 'y'] =>  ['u', 'y'] // average length is 1
-['aa', 'bbb', 'cccc'] => ['aaa', 'bbb', 'ccc'] // average length is 3
-['aa', 'bb', 'ddd', 'eee'] => ['aaa', 'bbb', 'ddd', 'eee'] // average length is 2.5 round up to 3
-If the average length is not an integer, use Math.round().
-The input array's length > 1
+- ['u', 'y'] =>  ['u', 'y'] // average length is 1
+- ['aa', 'bbb', 'cccc'] => ['aaa', 'bbb', 'ccc'] // average length is 3
+- ['aa', 'bb', 'ddd', 'eee'] => ['aaa', 'bbb', 'ddd', 'eee'] // average length is 2.5 round up to 3
+- If the average length is not an integer, use Math.round().
+- The input array's length > 1
 
 # Solution
 
