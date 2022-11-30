@@ -26,9 +26,6 @@ function arrayDiff(a,b){
   return a.filter(n => !newSet.has(n) )
 }
 
-console.log(arrayDiff([1,2,2,2,3],[2]),"[1,3]")
-console.log(arrayDiff([3,4], [3]),"[4]")
-
 ```
 
 # Explanation

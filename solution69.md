@@ -17,9 +17,17 @@ gimme([5, 10, 14]) => 1
 
 ```ruby
 
+function gimme(arr){
+  //sort -> 1indx
+  //arr -> indexOf num ^
+  return arr.indexOf([...arr].sort((a,b) => a - b)[1])
+ 
+}
 
 ```
 
 # Explanation
 
-https://discord.com/channels/735923219315425401/1029500048217751592/1041793802219835484 - triplet number lied between
+What is the [1] for ?
+
+what is going on inside indexOf() ?
