@@ -24,6 +24,7 @@ function containsDupes(arr){
 
   // Loop through each element of the array
   for(let i = 0; i < arr.length; i++){
+    
     // Store the current element in a local variable
     let num = arr[i]
 
