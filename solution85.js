@@ -23,5 +23,5 @@ function gooseFilter(birds) {
     let filteredArray =
         birds.filter(birds => !geese.includes(birds));
 
-    return filteredArray
+    return filteredArray;
 };
