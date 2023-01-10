@@ -17,7 +17,7 @@ function isVow(a) {
             // return a string from the code of the number. 97 -> a
             return String.fromCharCode(number)
         };
-        // Or just return the number if it's not included in array a beacuse its code does not represemt a string.
+        // Or just return the number if it's not included in array a beacuse its code does not represemt a string
         return number;
     });
 };
