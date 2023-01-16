@@ -13,7 +13,8 @@ function count(string) {
         // Check if the letter already exists as a property in the `obj` object
         // If it does, increment the value of that property by 1
         // If it does not, set the value of that property to 1
-        obj[letter] = obj[letter] ? obj[letter] + 1 : 1;
+
+        obj[letter] = obj[letter] + 1 || 1;
     }
     // Return the `obj` object, which contains the count of each letter in the input string
     return obj;
