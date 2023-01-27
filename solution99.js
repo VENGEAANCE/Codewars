@@ -16,20 +16,27 @@
 // Output: false
 
 let isSubsequence = function(s, t) {
+
+    if(s === '' && t === ''){
+        return true
+    }
     // This variable will hold the times s string has the letters in t in order
     let sPointer = 0;
+
     // Iterate through second string
     for(let tPointer = 0; tPointer < t.length; tPointer++){
         // We will only add if current element in s is the same as curr elem in t;
         if(s[sPointer] === t[tPointer]){
-            sPointer++
+            sPointer++;
         }
 
         // When loop is done. If length of sPointer is the same as s.length. That means s is subsequent to T
         if(sPointer === s.length){
-            return true
+            return true;
         }
-
-        return false;
     }
+
+    // If none of the conditions are met when loop finishes, return false
+    return false;
 };
+
