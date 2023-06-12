@@ -1,6 +1,5 @@
-# Codewars
+# Leetcode
 
 # Aim
-Show codewars progress by pushing everyday!
 
-
+Show Leetcode progress by pushing everyday!
