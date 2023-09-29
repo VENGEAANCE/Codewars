@@ -32,34 +32,30 @@
  */
 
 
-var isAnagram = function(s, t) {
-    // Check if the lengths of the two strings are different
-    if (s.length !== t.length) {
-        return false; // If lengths are different, they can't be anagrams
+function isAnagram (s, t) {
+    
+    if(s.length !== t.length){
+        return false;
     }
 
-    // Create frequency maps for characters in both strings
-    let sMap = {}; // Frequency map for characters in string s
-    let tMap = {}; // Frequency map for characters in string t
+    const sMap= {};
+    const tMap= {};
 
-    // Populate the frequency maps by iterating over the characters in strings s and t
-    for (let i in s) {
-        // Increment the frequency of character s[i] in sMap and t[i] in tMap
-        sMap[s[i]] = sMap[s[i]] + 1 || 0;
-        tMap[t[i]] = tMap[t[i]] + 1 || 0;
+    for(let e of s){
+        sMap[e] = (sMap[e] || 0) + 1
     }
 
-    // Compare the frequency maps for any differences
-    for (let c in sMap) {
-        // If the frequencies of any character differ between the two maps,
-        // the strings are not anagrams
-        if (sMap[c] !== tMap[c]) {
+    for(let e of t){
+        tMap[e] = (tMap[e] || 0) + 1
+    }
+
+    for(const count in sMap){
+        if(sMap[count] !== tMap[count]){
             return false;
         }
     }
 
-    // If the loop completes without finding any differences in character frequencies,
-    // the strings are anagrams
     return true;
-};
 
+
+};
